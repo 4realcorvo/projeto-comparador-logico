@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Operadores Lógicos</title>
+</head>
+<body>
+  <main>
+    <h1>Calculadora Lógica</h1>
+    <hr>
+
+    <input type="number" placeholder="0" id="valor1">
+    <select name="" id="operadoresLogicos">
+      <option value="maior"> > </option>
+      <option value="menor"> < </option>
+      <option value="maiorigual"> >= </option>
+      <option value="menorigual"> <= </option>
+      <option value="igual"> == </option>
+      <option value="diferente"> != </option>
+    </select>
+    <input type="number" placeholder="0" id="valor2">
+    <input type="button" id="button" value="=" onclick="operacaoLogica()">
+    <input type="text" placeholder="resultado" id="resultado">
+
+    <hr>
+
+  </main>
+  <script src="operadorLogico.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+*{
+  font-family: sans-serif;
+}
+
+input{
+width: 30px;
+text-align: center;
+}
+
+#valor1,#valor2{
+  width: 60px;
+  text-align: center;
+}
+
+input:nth-child(7){
+  width: 80px;
+}
+#button, #operadoresLogicos{
+  cursor: pointer;
+}
